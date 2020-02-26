@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		650E5954240524F8006CC78F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650E5953240524F8006CC78F /* AppDelegate.swift */; };
+		650E5956240524F8006CC78F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650E5955240524F8006CC78F /* SceneDelegate.swift */; };
+		650E5958240524F8006CC78F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650E5957240524F8006CC78F /* ViewController.swift */; };
+		650E595B240524F8006CC78F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 650E5959240524F8006CC78F /* Main.storyboard */; };
+		650E595D240524FA006CC78F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 650E595C240524FA006CC78F /* Assets.xcassets */; };
+		650E5960240524FA006CC78F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 650E595E240524FA006CC78F /* LaunchScreen.storyboard */; };
+		650E596B240524FA006CC78F /* Task_gautami_tvUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650E596A240524FA006CC78F /* Task_gautami_tvUITests.swift */; };
+		650E597724052543006CC78F /* First_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650E597524052543006CC78F /* First_TableViewCell.swift */; };
+		650E597824052543006CC78F /* First_TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 650E597624052543006CC78F /* First_TableViewCell.xib */; };
+		650E597B2405255B006CC78F /* Second_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650E59792405255B006CC78F /* Second_TableViewCell.swift */; };
+		650E597C2405255B006CC78F /* Second_TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 650E597A2405255B006CC78F /* Second_TableViewCell.xib */; };
+		650E597F2405256E006CC78F /* Third_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650E597D2405256D006CC78F /* Third_TableViewCell.swift */; };
+		650E59802405256E006CC78F /* Third_TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 650E597E2405256D006CC78F /* Third_TableViewCell.xib */; };
+		650E598324053424006CC78F /* Fourth_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650E598124053424006CC78F /* Fourth_TableViewCell.swift */; };
+		650E598424053424006CC78F /* Fourth_TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 650E598224053424006CC78F /* Fourth_TableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		650E5967240524FA006CC78F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 650E5948240524F8006CC78F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 650E594F240524F8006CC78F;
+			remoteInfo = Task_gautami_tv;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		650E5950240524F8006CC78F /* Task_gautami_tv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Task_gautami_tv.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		650E5953240524F8006CC78F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		650E5955240524F8006CC78F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		650E5957240524F8006CC78F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		650E595A240524F8006CC78F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		650E595C240524FA006CC78F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		650E595F240524FA006CC78F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		650E5961240524FA006CC78F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		650E5966240524FA006CC78F /* Task_gautami_tvUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Task_gautami_tvUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		650E596A240524FA006CC78F /* Task_gautami_tvUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task_gautami_tvUITests.swift; sourceTree = "<group>"; };
+		650E596C240524FA006CC78F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		650E597524052543006CC78F /* First_TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = First_TableViewCell.swift; sourceTree = "<group>"; };
+		650E597624052543006CC78F /* First_TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = First_TableViewCell.xib; sourceTree = "<group>"; };
+		650E59792405255B006CC78F /* Second_TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Second_TableViewCell.swift; sourceTree = "<group>"; };
+		650E597A2405255B006CC78F /* Second_TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Second_TableViewCell.xib; sourceTree = "<group>"; };
+		650E597D2405256D006CC78F /* Third_TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Third_TableViewCell.swift; sourceTree = "<group>"; };
+		650E597E2405256D006CC78F /* Third_TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Third_TableViewCell.xib; sourceTree = "<group>"; };
+		650E598124053424006CC78F /* Fourth_TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fourth_TableViewCell.swift; sourceTree = "<group>"; };
+		650E598224053424006CC78F /* Fourth_TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Fourth_TableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		650E594D240524F8006CC78F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650E5963240524FA006CC78F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		650E5947240524F8006CC78F = {
+			isa = PBXGroup;
+			children = (
+				650E5952240524F8006CC78F /* Task_gautami_tv */,
+				650E5969240524FA006CC78F /* Task_gautami_tvUITests */,
+				650E5951240524F8006CC78F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		650E5951240524F8006CC78F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				650E5950240524F8006CC78F /* Task_gautami_tv.app */,
+				650E5966240524FA006CC78F /* Task_gautami_tvUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		650E5952240524F8006CC78F /* Task_gautami_tv */ = {
+			isa = PBXGroup;
+			children = (
+				650E5953240524F8006CC78F /* AppDelegate.swift */,
+				650E5955240524F8006CC78F /* SceneDelegate.swift */,
+				650E5957240524F8006CC78F /* ViewController.swift */,
+				650E5959240524F8006CC78F /* Main.storyboard */,
+				650E597524052543006CC78F /* First_TableViewCell.swift */,
+				650E597624052543006CC78F /* First_TableViewCell.xib */,
+				650E59792405255B006CC78F /* Second_TableViewCell.swift */,
+				650E597A2405255B006CC78F /* Second_TableViewCell.xib */,
+				650E597D2405256D006CC78F /* Third_TableViewCell.swift */,
+				650E597E2405256D006CC78F /* Third_TableViewCell.xib */,
+				650E598124053424006CC78F /* Fourth_TableViewCell.swift */,
+				650E598224053424006CC78F /* Fourth_TableViewCell.xib */,
+				650E595C240524FA006CC78F /* Assets.xcassets */,
+				650E595E240524FA006CC78F /* LaunchScreen.storyboard */,
+				650E5961240524FA006CC78F /* Info.plist */,
+			);
+			path = Task_gautami_tv;
+			sourceTree = "<group>";
+		};
+		650E5969240524FA006CC78F /* Task_gautami_tvUITests */ = {
+			isa = PBXGroup;
+			children = (
+				650E596A240524FA006CC78F /* Task_gautami_tvUITests.swift */,
+				650E596C240524FA006CC78F /* Info.plist */,
+			);
+			path = Task_gautami_tvUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		650E594F240524F8006CC78F /* Task_gautami_tv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 650E596F240524FA006CC78F /* Build configuration list for PBXNativeTarget "Task_gautami_tv" */;
+			buildPhases = (
+				650E594C240524F8006CC78F /* Sources */,
+				650E594D240524F8006CC78F /* Frameworks */,
+				650E594E240524F8006CC78F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Task_gautami_tv;
+			productName = Task_gautami_tv;
+			productReference = 650E5950240524F8006CC78F /* Task_gautami_tv.app */;
+			productType = "com.apple.product-type.application";
+		};
+		650E5965240524FA006CC78F /* Task_gautami_tvUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 650E5972240524FA006CC78F /* Build configuration list for PBXNativeTarget "Task_gautami_tvUITests" */;
+			buildPhases = (
+				650E5962240524FA006CC78F /* Sources */,
+				650E5963240524FA006CC78F /* Frameworks */,
+				650E5964240524FA006CC78F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				650E5968240524FA006CC78F /* PBXTargetDependency */,
+			);
+			name = Task_gautami_tvUITests;
+			productName = Task_gautami_tvUITests;
+			productReference = 650E5966240524FA006CC78F /* Task_gautami_tvUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		650E5948240524F8006CC78F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = q;
+				TargetAttributes = {
+					650E594F240524F8006CC78F = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					650E5965240524FA006CC78F = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 650E594F240524F8006CC78F;
+					};
+				};
+			};
+			buildConfigurationList = 650E594B240524F8006CC78F /* Build configuration list for PBXProject "Task_gautami_tv" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 650E5947240524F8006CC78F;
+			productRefGroup = 650E5951240524F8006CC78F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				650E594F240524F8006CC78F /* Task_gautami_tv */,
+				650E5965240524FA006CC78F /* Task_gautami_tvUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		650E594E240524F8006CC78F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650E5960240524FA006CC78F /* LaunchScreen.storyboard in Resources */,
+				650E598424053424006CC78F /* Fourth_TableViewCell.xib in Resources */,
+				650E595D240524FA006CC78F /* Assets.xcassets in Resources */,
+				650E597C2405255B006CC78F /* Second_TableViewCell.xib in Resources */,
+				650E59802405256E006CC78F /* Third_TableViewCell.xib in Resources */,
+				650E597824052543006CC78F /* First_TableViewCell.xib in Resources */,
+				650E595B240524F8006CC78F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650E5964240524FA006CC78F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		650E594C240524F8006CC78F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650E597B2405255B006CC78F /* Second_TableViewCell.swift in Sources */,
+				650E597F2405256E006CC78F /* Third_TableViewCell.swift in Sources */,
+				650E5958240524F8006CC78F /* ViewController.swift in Sources */,
+				650E5954240524F8006CC78F /* AppDelegate.swift in Sources */,
+				650E598324053424006CC78F /* Fourth_TableViewCell.swift in Sources */,
+				650E597724052543006CC78F /* First_TableViewCell.swift in Sources */,
+				650E5956240524F8006CC78F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650E5962240524FA006CC78F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650E596B240524FA006CC78F /* Task_gautami_tvUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		650E5968240524FA006CC78F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 650E594F240524F8006CC78F /* Task_gautami_tv */;
+			targetProxy = 650E5967240524FA006CC78F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		650E5959240524F8006CC78F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				650E595A240524F8006CC78F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		650E595E240524FA006CC78F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				650E595F240524FA006CC78F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		650E596D240524FA006CC78F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		650E596E240524FA006CC78F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		650E5970240524FA006CC78F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Task_gautami_tv/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "in.mac.Task-gautami-tv";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		650E5971240524FA006CC78F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Task_gautami_tv/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "in.mac.Task-gautami-tv";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		650E5973240524FA006CC78F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Task_gautami_tvUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "in.mac.Task-gautami-tvUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Task_gautami_tv;
+			};
+			name = Debug;
+		};
+		650E5974240524FA006CC78F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Task_gautami_tvUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "in.mac.Task-gautami-tvUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Task_gautami_tv;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		650E594B240524F8006CC78F /* Build configuration list for PBXProject "Task_gautami_tv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				650E596D240524FA006CC78F /* Debug */,
+				650E596E240524FA006CC78F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		650E596F240524FA006CC78F /* Build configuration list for PBXNativeTarget "Task_gautami_tv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				650E5970240524FA006CC78F /* Debug */,
+				650E5971240524FA006CC78F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		650E5972240524FA006CC78F /* Build configuration list for PBXNativeTarget "Task_gautami_tvUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				650E5973240524FA006CC78F /* Debug */,
+				650E5974240524FA006CC78F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 650E5948240524F8006CC78F /* Project object */;
+}
