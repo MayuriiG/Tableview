@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SearchBAR_tv" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" placeholder="Search" translatesAutoresizingMaskIntoConstraints="NO" id="NT9-9I-kvv">
+                                <rect key="frame" x="0.0" y="105" width="414" height="56"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="i4C-oz-UdL">
+                                <rect key="frame" x="0.0" y="161" width="414" height="735"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TableViewCell" rowHeight="61" id="mTM-VH-6BJ" customClass="TableViewCell" customModule="SearchBAR_tv" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="61"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="mTM-VH-6BJ" id="Aw4-cL-fpY">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="61"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eos-cP-ucf">
+                                                    <rect key="frame" x="8" y="12" width="386" height="36"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="21"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="lbl" destination="Eos-cP-ucf" id="GV5-YO-rIA"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="GY0-Hq-fBx"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="QC1-6l-Mf6"/>
+                                </connections>
+                            </tableView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wallp09" translatesAutoresizingMaskIntoConstraints="NO" id="d26-bN-UNB">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="105"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="NT9-9I-kvv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="61" id="FrF-hy-97Y"/>
+                            <constraint firstItem="i4C-oz-UdL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="I7g-W0-0jQ"/>
+                            <constraint firstItem="d26-bN-UNB" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="JYP-Kl-mZa"/>
+                            <constraint firstItem="d26-bN-UNB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Ksy-3i-s0R"/>
+                            <constraint firstItem="d26-bN-UNB" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="MdL-w4-E8E"/>
+                            <constraint firstItem="d26-bN-UNB" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="S9B-Vl-Vx7"/>
+                            <constraint firstItem="i4C-oz-UdL" firstAttribute="top" secondItem="NT9-9I-kvv" secondAttribute="bottom" id="SYe-gF-dxb"/>
+                            <constraint firstItem="NT9-9I-kvv" firstAttribute="top" secondItem="d26-bN-UNB" secondAttribute="bottom" id="Slc-RK-Uiy"/>
+                            <constraint firstItem="NT9-9I-kvv" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Whf-bb-u9j"/>
+                            <constraint firstItem="i4C-oz-UdL" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="X8P-o0-TiA"/>
+                            <constraint firstItem="d26-bN-UNB" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="aFb-mM-6DH"/>
+                            <constraint firstItem="NT9-9I-kvv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="gU1-qv-7bX"/>
+                            <constraint firstItem="NT9-9I-kvv" firstAttribute="top" secondItem="d26-bN-UNB" secondAttribute="bottom" id="ipN-aC-HHr"/>
+                            <constraint firstAttribute="bottom" secondItem="i4C-oz-UdL" secondAttribute="bottom" id="mcW-rO-B4w"/>
+                            <constraint firstItem="d26-bN-UNB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ptl-w9-EyO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="searchBar" destination="NT9-9I-kvv" id="SWr-zK-igB"/>
+                        <outlet property="tbvIEW" destination="i4C-oz-UdL" id="5WO-5R-czm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="117.85714285714285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="wallp09" width="284" height="177"/>
+    </resources>
+</document>
